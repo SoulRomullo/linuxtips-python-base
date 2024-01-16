@@ -1,5 +1,7 @@
 Comandos que podemos usar no terminal usando python3 para ajudas
 
+python help
+
 Abra o terminal e execute os seguintes comandos!
 
 Para abrir no terminal executar o seguite comando 
