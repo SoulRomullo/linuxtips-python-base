@@ -1,0 +1,21 @@
+Comandos que podemos usar no terminal usando python3 para ajudas
+
+python help
+
+Abra o terminal e execute os seguintes comandos!
+
+Para abrir no terminal executar o seguite comando 
+
+python
+
+Agora você pode digitar os comandos em python que será executando dentro do terminal
+
+Para o programa ser executado sem tem problemas de versão do python quando for executando devemos sempre que for criar um arquivo devemos incrementar o seguinte comando na primeira linha
+
+#!/usr/bin/env python3
+
+Estamos indicando para o interpretador que a versão do programa está sendo executado na versão Python3 
+
+Exemplo no arquivo .py que contém nessa pasta Aula - 01
+ 
+ 
