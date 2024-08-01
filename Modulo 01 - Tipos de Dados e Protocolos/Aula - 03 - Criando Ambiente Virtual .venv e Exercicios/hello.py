@@ -23,7 +23,7 @@
     -$ python -m pip install --upgrade pip
 
     Para iniciar a Biblioteca IPYTHON instalado no projeto usamos o comando no terminal, ele é interpretador do python no terminal
-    -$ ipython
+    -$ ipython3
     
     Comando para saber o número em Binário
     -$ bin(65) --> Exemplo pode ser o nome de uma variável
@@ -45,8 +45,29 @@
     __index__ este objeto é chamado de PROTOCOLO DO OBJETO, usando o comando dir(int) no terminal, vai aparecer todos os que 
     existe!
 
+    Site com caracteres unicode com emoji e formato de letras de outros países, podemos copiar a imagem direto do site é colar no código python
+    https://symbl.cc/en/
+
+    Para guardar uma imagem no banco de dados com o código da fruta em hexadecimal devemos convertelo em UTF-8 como no exemplo abaixo 
+    -$ fruta.encode("utf-8")
+    Devemos colocar o código dentro de uma variável então ficará dessa forma ".encode("utf-8")"
+    -$ fruta_encoded = fruta.encode("utf-8")
+    Agora podemos verificar o código hexadecimal no terminal 
+    -$ print(fruta_encoded)
+    Para amostrar a imagem depois de transformar em hexadecimal usamos a seguinte função ".decode()"
+    -$ fruta_encoded.decode()
+
+    INTERPOLAÇÃO DE TEXTO
+    Exemplo:
+    -$ template = "O saldo do %s o total de %f" --> temos o formato de %s para string, $d para números inteiros, %f para números float
+    Outro exemplo
+    -$ "Olá %s" % "Romullo" --> Dessa forma ele irá retornar "Olá Romullo"
+
+    Site para buscar mais expecificações é
+    https://pyformat.info/
+
     
-    
+
 """
 
 print('Hello World!!!')
