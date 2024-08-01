@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 email_tmpl = """ 
     Olá, %(nome)s 
     Tem interesse em comprar %(produto)s? 
